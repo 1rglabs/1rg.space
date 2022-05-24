@@ -1,0 +1,13 @@
+{
+  "name": "1rg.club",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
