@@ -3,7 +3,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build && npm run copy-redirects",
+    "copy-redirects": "cp src/_redirects dist"
   },
   "devDependencies": {
     "parcel": "^2.5.0",
