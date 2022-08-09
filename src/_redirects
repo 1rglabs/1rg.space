@@ -1,2 +1,5 @@
 /go https://airtable.com/shrir50ElwQrtVUUJ?prefill_Notes=Go%20Meetup
 /bookings https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit?usp=sharing
+
+# Redirect community to new domain
+https://community.1rg.club/* https://community.1rg.space/:splat 301!
