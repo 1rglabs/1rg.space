@@ -6,19 +6,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./index.css" rel="stylesheet">
-  <title>My First Parcel App</title>
+  <title>1RG</title>
 </head>
 
 <body>
-  <div class="flex w-screen h-screen">
-    <div class="m-auto">
-      <div class="m-2">
-        <h1 class="text-3xl font-bold">This is a landing page.</h1>
-        <p>Our physical doors may be open, but our virtual doors are not.</p>
-        <p>See you soon.</p>
+  <header class="flex h-20 bg-purple-700">
+    <img class="justify-center w-24" src="1rg_logo.svg" />
+    <div class="flex justify-end w-full">
+      <div class="flex items-center justify-center w-20 bg-white">
+        <svg class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
       </div>
     </div>
-  </div>
+  </header>
+  <section class="flex justify-center px-2 py-40 text-white bg-black">
+    <img src="https://1rg.fredic.uk/wp-content/uploads/2022/09/1RG-1.gif" />
+  </section>
+  <section class="grid h-[90vh] grid-cols-3">
+    <div class="col-span-1 ">
+      <img class="object-cover object-right w-full h-full grayscale"
+        src="https://1rg.fredic.uk/wp-content/uploads/2022/09/pexels-matheus-bertelli-3856026-scaled.jpg" />
+
+    </div>
+    <div class="grid col-span-2 grid-rows-5">
+      <div class="row-span-2 bg-green-500">
+        <h1 class="max-w-3xl mt-20 mb-8 overflow-hidden font-black whitespace-nowrap text-9xl">TODO 1RG / 2RG / 3RG</h1>
+        <div class="flex py-2 text-xl text-white bg-black space-x-72">
+          <h2>TODO / CURIOUS / CREATIVE / CARING</h2>
+          <h2>/ CURIOUS / CREATIVE / CARING</h2>
+        </div>
+      </div>
+      <div class="flex row-span-3 bg-white">
+        <div class="flex items-center justify-center h-full px-8 text-white bg-purple-700">
+          <svg class="w-36 h-36" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 151 146">
+            <polygon
+              points="151 51.008 132.865 20.699 92.154 45.094 92.895 0 58.105 0 58.475 45.094 17.765 20.699 0 51.008 40.341 73.185 0 94.992 17.765 125.301 58.475 100.906 58.105 146 92.895 146 92.154 101.276 132.865 125.301 151 94.992 110.659 73.185 151 51.008">
+            </polygon>
+          </svg>
+        </div>
+        <div class="flex items-center justify-center w-full">
+          <a class="px-6 py-3 font-black leading-snug text-green-600 underline bg-purple-600 text-7xl" href="#">UPCOMING EVENTS</a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
 </body>
 
 </html>
