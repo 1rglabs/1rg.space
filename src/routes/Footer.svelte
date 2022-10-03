@@ -1,3 +1,6 @@
+<script>
+	import Input from '$lib/components/Input.svelte'
+</script>
 <!-- TODO padding after font? -->
 <footer class="mb-2 text-black min-h-40 bg-darkseagreen">
 	<div class="flex">
@@ -7,10 +10,9 @@
 				subscribe for exclusive updates on our events
 			</div>
 			<div class="mb-2">
-				<input
+				<Input
 					type="email"
 					placeholder="Email"
-					class="px-3 py-1 text-base text-black placeholder-gray-600 border-b-[0.5px] border-gray-600 border-b-gray-700 focus:border-[0.5px] w-72  bg-darkseagreen focus:outline-none "
 				/>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 <script>
-	import animated from '$lib/images/1rg_animated.gif'
-	import people from '$lib/images/people.jpg'
-
+	import animated from '$lib/images/1rg_animated.gif';
+	import people from '$lib/images/people.jpg';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <svelte:head>
@@ -44,10 +44,7 @@
 				</svg>
 			</div>
 			<div class="flex items-center justify-center w-full">
-				<a
-					class="px-6 py-5 mx-2 font-black leading-normal text-center underline text-darkseagreen bg-mediumorchid text-7xl hover:text-mediumorchid hover:bg-darkseagreen"
-					href="#">UPCOMING EVENTS</a
-				>
+				<Button class="px-6 py-5 mx-2 font-black">UPCOMING EVENTS</Button>
 			</div>
 		</div>
 	</div>
