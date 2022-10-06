@@ -44,7 +44,7 @@
 				</svg>
 			</div>
 			<div class="flex items-center justify-center w-full">
-				<Button class="px-6 py-5 mx-2 font-black">UPCOMING EVENTS</Button>
+				<Button class="px-6 py-5 mx-2 font-black text-8xl">UPCOMING EVENTS</Button>
 			</div>
 		</div>
 	</div>
