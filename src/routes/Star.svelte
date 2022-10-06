@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { inview } from 'svelte-inview';
 
 	import type { TransitionConfig, EasingFunction } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
@@ -29,12 +30,21 @@
 	let ready = false;
 
 	onMount(() => (ready = true));
+
+	let isInView: boolean;
 </script>
 
-<div class="w-36">
-	{#if ready}
+<div
+	class="w-36"
+	use:inview={{ unobserveOnEnter: true }}
+	on:enter={(event) => {
+		const { inView } = event.detail;
+		isInView = inView;
+	}}
+>
+	{#if isInView}
 		<svg
-			in:rotateIn={{ duration: 2000, delay: 400 }}
+			in:rotateIn={{ duration: 2000, delay: 200 }}
 			class="w-36 h-36"
 			xmlns="http://www.w3.org/2000/svg"
 			fill="currentColor"
