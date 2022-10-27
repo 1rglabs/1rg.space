@@ -1,10 +1,12 @@
 <script lang="ts">
 	export let href: string | undefined = '#';
 
-	let baseClasses =
-		'leading-normal text-center underline text-darkseagreen bg-mediumorchid hover:text-mediumorchid hover:bg-darkseagreen';
+	export let hoverColor = 'green';
 
-	$: classes = `${baseClasses} ${$$props.class || ''}`;
+	let baseClasses =
+		'leading-normal text-center underline text-darkseagreen bg-mediumorchid hover:text-mediumorchid';
+
+	$: classes = `${baseClasses} ${hoverColor === 'green' ? 'hover:bg-darkseagreen' : 'hover:bg-white'} ${$$props.class || ''}`;
 </script>
 
 <a class={classes} {href}>
