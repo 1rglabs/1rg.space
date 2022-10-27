@@ -31,12 +31,14 @@
 				<h2>/ CURIOUS / CREATIVE / CARING</h2>
 			</div>
 		</div>
-		<div class="flex row-span-3 bg-white">
-			<div class="flex items-center justify-center h-full px-8 text-white bg-mediumorchid">
+		<div class="grid grid-flow-col grid-cols-4 row-span-3 bg-white">
+			<div
+				class="flex justify-center items-center bg-mediumorchid text-white max-w-60 col-span-1 mr-5"
+			>
 				<Star />
 			</div>
-			<div class="flex items-center justify-center w-full">
-				<Button class="px-6 py-5 mx-2 font-black">UPCOMING EVENTS</Button>
+			<div class="flex justify-center items-center col-span-3">
+				<Button class="font-black text-8xl px-6 py-5 m-10">UPCOMING EVENTS</Button>
 			</div>
 		</div>
 	</div>
