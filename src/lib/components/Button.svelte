@@ -7,6 +7,6 @@
 	$: classes = `${baseClasses} ${$$props.class || ''}`;
 </script>
 
-<a class={classes} {href}>
+<a class={classes} {href} on:click>
 	<slot />
 </a>
