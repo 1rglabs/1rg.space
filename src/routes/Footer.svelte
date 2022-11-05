@@ -18,10 +18,10 @@
 	<div class="col-span-2 bg-stone-50">
 		<div class="p-10">
 			<il class="text-xl font-bold leading-8 tracking-wider uppercase">
-				<ul>membership</ul>
-				<ul>events</ul>
-				<ul>about</ul>
-				<ul>contact</ul>
+				<ul><a class="hover:text-mediumorchid" href="#">membership</a></ul>
+				<ul><a class="hover:text-mediumorchid" href="#">events</a></ul>
+				<ul><a class="hover:text-mediumorchid" href="#">about</a></ul>
+				<ul><a class="hover:text-mediumorchid" href="#">contact</a></ul>
 			</il>
 		</div>
 	</div>
