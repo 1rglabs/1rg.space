@@ -1,5 +1,6 @@
 <script lang="ts">
-	let baseClasses = 'flex items-center justify-center w-20 h-20 bg-white hover:bg-darkseagreen';
+	let baseClasses =
+		'flex items-center justify-center text-center w-20 h-20 bg-white hover:bg-darkseagreen';
 
 	$: classes = `${baseClasses} ${$$props.class || ''}`;
 </script>

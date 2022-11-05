@@ -33,7 +33,7 @@
 		</div>
 		<div class="grid grid-flow-col grid-cols-4 row-span-3 bg-white">
 			<div
-				class="flex justify-center items-center bg-mediumorchid text-white max-w-60 col-span-1 mr-5"
+				class="flex items-center justify-center col-span-1 mr-5 text-white bg-mediumorchid max-w-60"
 			>
 				<Star />
 			</div>

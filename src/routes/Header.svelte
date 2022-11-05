@@ -8,7 +8,7 @@
 
 <header class="flex h-20 bg-mediumorchid">
 	<img class="justify-center w-24" src={logo} alt="1RG Logo" />
-	<div class="flex justify-end w-full">
+	<div class="flex items-center justify-end w-full">
 		<HamburgerButton on:click={() => (menuOpen = true)} />
 	</div>
 </header>
