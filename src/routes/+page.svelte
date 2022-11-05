@@ -23,7 +23,7 @@
 	</div>
 	<div class="grid col-span-2 grid-rows-5">
 		<div class="row-span-2 bg-darkseagreen">
-			<h1 class="max-w-3xl mt-20 mb-8 overflow-hidden font-black whitespace-nowrap text-9xl">
+			<h1 class="max-w-3xl mt-20 mb-8 overflow-hidden font-black whitespace-nowrap text-6xl">
 				TODO 1RG / 2RG / 3RG
 			</h1>
 			<div class="flex py-2 text-xl text-white bg-black space-x-72">
@@ -37,8 +37,8 @@
 			>
 				<Star />
 			</div>
-			<div class="flex justify-center items-center col-span-3">
-				<Button class="font-black text-8xl px-6 py-5 m-10">UPCOMING EVENTS</Button>
+			<div class="flex items-center justify-center col-span-3">
+				<Button class="px-6 py-5 m-10 font-black text-5xl">UPCOMING EVENTS</Button>
 			</div>
 		</div>
 	</div>
