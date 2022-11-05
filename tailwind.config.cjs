@@ -14,7 +14,8 @@ const config = {
 			'5xl': ['44px', 1],
 			'6xl': ['65px', 1],
 			'7xl': ['73px', 1],
-			'8xl': ['87.5px', 1]
+			'8xl': ['87.5px', 1],
+			'9xl': ['140.544px', 1]
 		},
 		extend: {
 			fontFamily: {
@@ -26,7 +27,10 @@ const config = {
 			},
 			spacing: {
 				'18': '4.5rem',
-			}
+			},
+			gridTemplateColumns: {
+				'13': 'repeat(13, minmax(0, 1fr))'
+			  }
 		}
 	},
 
