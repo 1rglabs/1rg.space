@@ -23,7 +23,7 @@
 	</div>
 	<div class="flex flex-col col-span-12 lg:row-span-1 xl:col-span-8 xl:row-span-2 bg-darkseagreen">
 		<div class="flex justify-center mt-5 mb-8 overflow-hidden">
-			<h1 class="mt-5 font-black text-center xl:mt-20 md:whitespace-nowrap text-8xl xl:text-10xl">1RG / 1RG / 1RG</h1>
+			<h1 class="mt-5 font-black text-center xl:mt-20 md:whitespace-nowrap text-8xl md:text-9xl xl:text-10xl">1RG / 1RG / 1RG</h1>
 		</div>
 		<div class="flex flex-col items-center justify-center mb-6 text-lg font-light text-white bg-black lg:py-2 md:flex-row md:justify-between md:-mt-8 xl:text-xl">
 			<h2>CURIOUS / CREATIVE / CARING</h2>
