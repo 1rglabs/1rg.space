@@ -4,7 +4,19 @@
 	import logo from '$lib/images/1rg_logo.svg';
 	import { fly } from 'svelte/transition';
 
+	import { page } from '$app/stores';
+
 	let innerWidth: number;
+
+	let menuItems = [
+		{ name: 'Home', href: '/' },
+		{ name: 'Memberships', href: '/memberships' },
+		{ name: 'Events', href: '/events' },
+		{ name: 'About Us', href: '/about' },
+		{ name: 'Contact', href: '/contact' },
+		{ name: 'Member Space', href: 'https://community.1rg.space' }
+	];
+
 	export let open = false;
 
 	// Make the page not scroll if the menu is open
@@ -31,14 +43,15 @@
 
 		<div class="flex items-center w-1/2 h-full">
 			<ul
-				class="flex flex-col justify-between px-5 py-12 text-3xl font-black tracking-wider text-white uppercase lg:text-5xl h-3/4 lg:h-full xl:text-7xl"
+				class="flex flex-col justify-between px-5 py-12 text-3xl font-black tracking-wider uppercase lg:text-5xl h-3/4 lg:h-full xl:text-7xl"
 			>
-				<li><a href="#" class="hover:text-darkseagreen">Home</a></li>
-				<li><a href="#" class="hover:text-darkseagreen">Memberships</a></li>
-				<li><a href="#" class="hover:text-darkseagreen">Events</a></li>
-				<li><a href="#" class="hover:text-darkseagreen">About Us</a></li>
-				<li><a href="#" class="hover:text-darkseagreen">Contact</a></li>
-				<li><a href="https://community.1rg.space">Member Space</a></li>
+				{#each menuItems as menuItem}
+					<li class={$page.url.pathname === menuItem.href ? 'text-darkseagreen' : 'text-white'}>
+						<a on:click={() => (open = false)} href={menuItem.href} class="hover:text-darkseagreen "
+							>{menuItem.name}</a
+						>
+					</li>
+				{/each}
 			</ul>
 		</div>
 	</div>
