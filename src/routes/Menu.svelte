@@ -2,7 +2,7 @@
 	import { browser } from '$app/environment';
 	import XButton from '$lib/components/XButton.svelte';
 	import logo from '$lib/images/1rg_logo.svg';
-	import { fly } from 'svelte/transition';
+	import { fly, fade } from 'svelte/transition';
 
 	import { page } from '$app/stores';
 
@@ -36,6 +36,7 @@
 			<img class="justify-center h-96" src={logo} alt="1RG Logo" />
 			<div
 				class="w-full p-5 text-5xl font-bold tracking-wider text-center uppercase bg-darkseagreen"
+				transition:fade={{duration: 1000}}
 			>
 				CURIOUS CREATIVE CARING
 			</div>
