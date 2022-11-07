@@ -1,21 +1,23 @@
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+		content: ['./src/**/*.{html,js,svelte,ts}'],
 
-	theme: {
-		fontSize: {
-			xs: ['12px', '18px'],
-			sm: ['14px', '24px'],
-			base: ['16px', '25px'],
-			lg: ['20px', '30px'],
-			xl: ['24px', '35px'],
-			'2xl': ['30px', '40px'],
-			'3xl': ['34px', 1],
-			'4xl': ['40px', 1],
-			'5xl': ['44px', 1],
-			'6xl': ['65px', 1],
-			'7xl': ['73px', 1],
-			'8xl': ['87.5px', 1],
-			'9xl': ['140.544px', 1]
+		theme: {
+			fontSize: {
+				xs: ['12px', '18px'],
+				sm: ['14px', '24px'],
+				base: ['16px', '25px'],
+				lg: ['20px', '30px'],
+				xl: ['24px', '35px'],
+				'2xl': ['30px', '40px'],
+				'3xl': ['34px', 1],
+				'4xl': ['40px', 1],
+				'5xl': ['44px', 1],
+				'6xl': ['65px', 1],
+				'7xl': ['73px', 1],
+				'8xl': ['87.5px', 1],
+				'9xl': ['140.544px', 1],
+				'10xl': ['200px', 1]
+
 		},
 		extend: {
 			fontFamily: {

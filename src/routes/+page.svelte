@@ -13,33 +13,29 @@
 <section class="flex justify-center px-2 py-40 text-white bg-black">
 	<img src={animated} alt="animated 1RG logo" />
 </section>
-<section class="grid min-h-[90vh] grid-cols-3">
-	<div class="col-span-1 ">
+<section class="grid min-h-[90vh] grid-cols-12 grid-rows-5">
+	<div class="col-span-4 row-span-5">
 		<img
 			class="object-cover object-right w-full h-full grayscale"
 			src={people}
 			alt="people hanging out"
 		/>
 	</div>
-	<div class="grid col-span-2 grid-rows-5">
-		<div class="row-span-2 bg-darkseagreen">
-			<h1 class="max-w-3xl mt-20 mb-8 overflow-hidden font-black whitespace-nowrap text-8xl">
-				TODO 1RG / 2RG / 3RG
-			</h1>
-			<div class="flex py-2 text-xl text-white bg-black space-x-72">
-				<h2>TODO / CURIOUS / CREATIVE / CARING</h2>
-				<h2>/ CURIOUS / CREATIVE / CARING</h2>
-			</div>
+	<div class="flex flex-col col-span-8 row-span-2 bg-darkseagreen">
+		<div class="flex justify-center mt-5 mb-8 overflow-hidden">
+			<h1 class="mt-20 font-black whitespace-nowrap text-10xl">1RG / 1RG / 1RG</h1>
 		</div>
-		<div class="grid grid-flow-col grid-cols-4 row-span-3 bg-white">
-			<div
-				class="flex justify-center items-center bg-mediumorchid text-white max-w-60 col-span-1 mr-5"
-			>
-				<Star />
-			</div>
-			<div class="flex items-center justify-center col-span-3">
-				<Button class="px-6 py-5 m-10 text-6xl font-black">UPCOMING EVENTS</Button>
-			</div>
+		<div class="flex justify-between py-2 mb-6 -mt-8 text-xl font-light text-white bg-black">
+			<h2>CURIOUS / CREATIVE / CARING</h2>
+			<h2>/ CURIOUS / CREATIVE / CARING</h2>
 		</div>
+	</div>
+	<div
+		class="flex items-center justify-center col-span-2 row-span-3 mr-5 text-white bg-mediumorchid max-w-60"
+	>
+		<Star />
+	</div>
+	<div class="flex items-center justify-center col-span-6 row-span-3 bg-white ">
+		<Button class="px-6 py-5 m-10 font-black text-8xl">UPCOMING EVENTS</Button>
 	</div>
 </section>
