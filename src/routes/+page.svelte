@@ -2,7 +2,7 @@
 	import animated from '$lib/images/1rg_animated.gif';
 	import dinner from '$lib/images/dinner.jpg';
 	import Button from '$lib/components/Button.svelte';
-	import Star from './Star.svelte';
+	import SpinningStar from '$lib/components/SpinningStar.svelte';
 </script>
 
 <svelte:head>
@@ -33,7 +33,7 @@
 	<div
 		class="flex items-center justify-center col-span-4 mr-5 text-white xl:col-span-2 xl:row-span-3 bg-mediumorchid "
 	>
-		<Star class="w-14 lg:w-24 xl:w-36"/>
+		<SpinningStar class="w-14 lg:w-24 xl:w-36"/>
 	</div>
 	<div
 		class="flex items-center justify-center col-span-8 bg-white xl:col-span-6 xl:row-span-3"
