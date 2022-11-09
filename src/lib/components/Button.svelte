@@ -9,6 +9,6 @@
 	$: classes = `${baseClasses} ${hoverColor === 'green' ? 'hover:bg-darkseagreen' : 'hover:bg-white'} ${$$props.class || ''}`;
 </script>
 
-<a class={classes} {href}>
+<a class={classes} {href} on:click>
 	<slot />
 </a>
