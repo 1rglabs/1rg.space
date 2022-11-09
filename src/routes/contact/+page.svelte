@@ -1,34 +1,30 @@
 <script>
 	import people from '$lib/images/people.jpg';
+
+	import Heading from '$lib/components/Heading.svelte';
 </script>
 
 <svelte:head>
 	<title>Contact Us</title>
 </svelte:head>
 
-<section class="flex">
-	<div class="bg-mediumorchid">
-		<h1 class="text-9xl  whitespace-pre-wrap uppercase text-white font-black">
-			TODO Contact Contact Contact
-		</h1>
+<Heading>Contact Contact Contact</Heading>
+<section class="flex flex-col md:flex-row">
+	<div class="md:w-1/2 h-48 md:h-[48rem] xl:h-[56rem]">
+		<img class="object-cover object-right w-full h-full" src={people} alt="contact us" />
 	</div>
-</section>
-<section class="flex">
-	<div class="w-1/2 lg:h-[700px] xl:h-[900px]">
-		<img class="object-cover object-right h-full w-full" src={people} alt="contact us" />
-	</div>
-	<div class="w-1/2 bg-stone-50 flex flex-col">
-		<div class="max-w-lg p-16 m-auto text-2xl">
-			<p class="mb-4"><span>We love to chat.</span></p>
+	<div class="flex flex-col md:w-1/2 bg-stone-50">
+		<div class="p-16 m-auto text-2xl md:max-w-2xl">
+			<p class="mb-4">We love to chat.</p>
 			<p class="mb-4">
-				<span>Interested in collaborating with 1RG for an event? Share your ideas with us.</span>
+				Interested in collaborating with 1RG for an event? Share your ideas with us.
 			</p>
 			<p class="mb-4">
-				<span>Looking for a space to host your group or meeting? Ask us about our boardroom rentals.</span>
+				Looking for a space to host your group or meeting? Ask us about our boardroom rentals.
 			</p>
-			<p class="mb-4"><span>Want to become a member? We’d love to see you.</span></p>
+			<p class="mb-4">Want to become a member? We’d love to see you.</p>
 			<h3 class="mt-10 text-3xl font-bold uppercase text-mediumorchid">Email:</h3>
-			<p class="mb-4 text-2xl"><span>team@1rg.space</span></p>
+			<a href="mailto:team@1rg.space" class="mb-4 text-2xl">team@1rg.space</a>
 		</div>
 	</div>
 </section>
