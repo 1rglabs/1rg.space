@@ -25,13 +25,13 @@
 <svelte:element this="style">{style}</svelte:element>
 
 <div class="relative w-full bg-black ">
-	<div class="font-black tracking-wider text-7xl">
-		<div class="absolute top-0 right-20">1RG</div>
-		<div class="absolute top-0 right-4">•</div>
-		<div class="absolute origin-left rotate-90 top-10 -right-56">SPACE</div>
-		<div class="absolute bottom-0 rotate-180 left-20">1RG</div>
-    <div class="absolute bottom-0 left-4">•</div>
-		<div class="absolute origin-left -rotate-90 left-9 bottom-10">SPACE</div>
+	<div class="text-xl font-black tracking-wider md:text-4xl xl:text-7xl">
+		<div class="absolute top-0 right-8 md:right-10 xl:right-20">1RG</div>
+		<div class="absolute top-0 right-2 xl:right-4">•</div>
+		<div class="absolute origin-left rotate-90 top-4 md:top-6 md:-right-32 xl:top-10 -right-18 xl:-right-56">SPACE</div>
+		<div class="absolute bottom-0 rotate-180 left-8 md:left-12 xl:left-20">1RG</div>
+    <div class="absolute bottom-0 left-2 md:left-4">•</div>
+		<div class="absolute origin-left -rotate-90 bottom-4 md:bottom-6 left-4 md:left-6 xl:left-9 xl:bottom-10">SPACE</div>
 	</div>
 	<div class="w-full bg-center bg-no-repeat bg-cover" id="animated-logo">
 		<svg
