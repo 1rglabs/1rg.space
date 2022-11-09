@@ -18,7 +18,7 @@
 		<img class="object-cover object-right h-full w-full" src={people} alt="contact us" />
 	</div>
 	<div class="w-1/2 bg-stone-50 flex flex-col">
-		<div class="text-2xl items-center justify-center p-14 font-normal">
+		<div class="max-w-lg p-16 m-auto text-2xl">
 			<p class="mb-4"><span>We love to chat.</span></p>
 			<p class="mb-4">
 				<span>Interested in collaborating with 1RG for an event? Share your ideas with us.</span>
