@@ -33,7 +33,7 @@
     <div class="absolute bottom-0 left-4">•</div>
 		<div class="absolute origin-left -rotate-90 left-9 bottom-10">SPACE</div>
 	</div>
-	<div class="w-full bg-center bg-no-repeat bg-contain" id="animated-logo">
+	<div class="w-full bg-center bg-no-repeat bg-cover" id="animated-logo">
 		<svg
 			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
