@@ -14,7 +14,7 @@
 	</div>
 </section>
 <section class="flex">
-	<div class="w-1/2">
+	<div class="w-1/2 lg:h-[700px] xl:h-[900px]">
 		<img class="object-cover object-right h-full w-full" src={people} alt="contact us" />
 	</div>
 	<div class="w-1/2 bg-stone-50 flex flex-col">
