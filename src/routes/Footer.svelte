@@ -22,10 +22,10 @@
 
 	<div class="flex items-center p-10 bg-stone-50">
 		<ul class="text-lg font-bold leading-8 tracking-wider uppercase">
-			<li><a class="hover:text-mediumorchid" href="#">membership</a></li>
-			<li><a class="hover:text-mediumorchid" href="#">events</a></li>
-			<li><a class="hover:text-mediumorchid" href="#">about</a></li>
-			<li><a class="hover:text-mediumorchid" href="#">contact</a></li>
+			<li><a class="hover:text-mediumorchid" href="/memberships">memberships</a></li>
+			<li><a class="hover:text-mediumorchid" href="/events">events</a></li>
+			<li><a class="hover:text-mediumorchid" href="/about">about</a></li>
+			<li><a class="hover:text-mediumorchid" href="/contact">contact</a></li>
 		</ul>
 	</div>
 </footer>
