@@ -27,9 +27,7 @@
 				<span>Looking for a space to host your group or meeting? Ask us about our boardroom rentals.</span>
 			</p>
 			<p class="mb-4"><span>Want to become a member? We’d love to see you.</span></p>
-		</div>
-		<div class="items-center justify-center pl-14">
-			<h3 class="text-3xl text-mediumorchid uppercase font-bold ">Email:</h3>
+			<h3 class="mt-10 text-3xl font-bold uppercase text-mediumorchid">Email:</h3>
 			<p class="mb-4 text-2xl"><span>team@1rg.space</span></p>
 		</div>
 	</div>
