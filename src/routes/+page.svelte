@@ -1,8 +1,9 @@
 <script>
-	import animated from '$lib/images/1rg_animated.gif';
-	import people from '$lib/images/people.jpg';
+	import dinner from '$lib/images/dinner.jpg';
+
 	import Button from '$lib/components/Button.svelte';
-	import Star from './Star.svelte';
+	import SpinningStar from '$lib/components/SpinningStar.svelte';
+	import AnimatedLogo from '$lib/components/AnimatedLogo.svelte';
 </script>
 
 <svelte:head>
@@ -11,35 +12,39 @@
 </svelte:head>
 
 <section class="flex justify-center px-2 py-40 text-white bg-black">
-	<img src={animated} alt="animated 1RG logo" />
+	<AnimatedLogo />
 </section>
-<section class="grid min-h-[90vh] grid-cols-3">
-	<div class="col-span-1 ">
-		<img
-			class="object-cover object-right w-full h-full grayscale"
-			src={people}
-			alt="people hanging out"
-		/>
+<section
+	class="grid min-h-[90vh] grid-cols-12 grid-rows-[24rem_2fr_1fr] lg:grid-rows-[32rem_1fr_1fr] xl:grid-rows-5"
+>
+	<div class="col-span-12 lg:row-span-1 xl:col-span-4 xl:row-span-5">
+		<img class="object-cover object-center w-full h-full grayscale" src={dinner} alt="1RG Dinner" />
 	</div>
-	<div class="grid col-span-2 grid-rows-5">
-		<div class="row-span-2 bg-darkseagreen">
-			<h1 class="max-w-3xl mt-20 mb-8 overflow-hidden font-black whitespace-nowrap text-8xl">
-				TODO 1RG / 2RG / 3RG
-			</h1>
-			<div class="flex py-2 text-xl text-white bg-black space-x-72">
-				<h2>TODO / CURIOUS / CREATIVE / CARING</h2>
-				<h2>/ CURIOUS / CREATIVE / CARING</h2>
-			</div>
-		</div>
-		<div class="grid grid-flow-col grid-cols-4 row-span-3 bg-white">
-			<div
-				class="flex items-center justify-center col-span-1 mr-5 text-white bg-mediumorchid max-w-60"
+	<div class="flex flex-col col-span-12 lg:row-span-1 xl:col-span-8 xl:row-span-2 bg-darkseagreen">
+		<div class="flex justify-center mt-5 mb-8 overflow-hidden">
+			<h1
+				class="mt-5 font-black text-center xl:mt-20 md:whitespace-nowrap text-8xl md:text-9xl xl:text-10xl"
 			>
-				<Star />
-			</div>
-			<div class="flex items-center justify-center col-span-3">
-				<Button class="px-6 py-5 m-10 text-6xl font-black">UPCOMING EVENTS</Button>
-			</div>
+				1RG / 1RG / 1RG
+			</h1>
 		</div>
+		<div
+			class="flex flex-col items-center justify-center mb-6 text-lg font-light text-white bg-black lg:py-2 md:flex-row md:justify-between md:-mt-8 xl:text-xl"
+		>
+			<h2>CURIOUS / CREATIVE / CARING</h2>
+			<h2>/ CURIOUS / CREATIVE / CARING</h2>
+		</div>
+	</div>
+	<div
+		class="flex items-center justify-center col-span-4 mr-5 text-white xl:col-span-2 xl:row-span-3 bg-mediumorchid "
+	>
+		<SpinningStar class="w-14 lg:w-24 xl:w-36" />
+	</div>
+	<div class="flex items-center justify-center col-span-8 bg-white xl:col-span-6 xl:row-span-3">
+		<Button
+			class="px-6 py-5 m-10 text-2xl font-black leading-tight lg:text-6xl xl:text-8xl xl:leading-normal"
+		>
+			UPCOMING EVENTS
+		</Button>
 	</div>
 </section>

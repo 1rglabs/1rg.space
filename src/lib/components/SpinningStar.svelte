@@ -35,7 +35,7 @@
 </script>
 
 <div
-	class="w-36"
+	class={$$props.class}
 	use:inview={{ unobserveOnEnter: true }}
 	on:enter={(event) => {
 		const { inView } = event.detail;
@@ -45,7 +45,7 @@
 	{#if isInView}
 		<svg
 			in:rotateIn={{ duration: 2000, delay: 200 }}
-			class="w-36 h-36"
+
 			xmlns="http://www.w3.org/2000/svg"
 			fill="currentColor"
 			viewBox="0 0 151 146"
