@@ -7,8 +7,6 @@
 	$: style = `
   #animated-logo {
     animation: 3s infinite shuffle-backgrounds steps(2, jump-none);
-    background-size: contain;
-    background-position: center;
   }
   @keyframes shuffle-backgrounds {
     from { background-color: white;	}
@@ -26,8 +24,16 @@
 
 <svelte:element this="style">{style}</svelte:element>
 
-<div id="animated-logo" class="w-full bg-black">
-	<div class="w-full bg-center bg-no-repeat bg-contain">
+<div class="relative w-full bg-black ">
+	<div class="font-black tracking-wider text-7xl">
+		<div class="absolute top-0 right-20">1RG</div>
+		<div class="absolute top-0 right-4">•</div>
+		<div class="absolute origin-left rotate-90 top-10 -right-56">SPACE</div>
+		<div class="absolute bottom-0 rotate-180 left-20">1RG</div>
+    <div class="absolute bottom-0 left-4">•</div>
+		<div class="absolute origin-left -rotate-90 left-9 bottom-10">SPACE</div>
+	</div>
+	<div class="w-full bg-center bg-no-repeat bg-contain" id="animated-logo">
 		<svg
 			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
