@@ -11,7 +11,7 @@
 	<meta name="description" content="1RG Space" />
 </svelte:head>
 
-<section class="flex justify-center px-2 py-40 text-white bg-black">
+<section class="flex justify-center p-2 text-white bg-black">
 	<AnimatedLogo />
 </section>
 <section
