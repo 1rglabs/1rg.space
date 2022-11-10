@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Contact Us</title>
+	<title>Contact</title>
 </svelte:head>
 
 <Heading>Contact Contact Contact</Heading>
