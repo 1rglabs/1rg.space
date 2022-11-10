@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import XButton from '$lib/components/XButton.svelte';
-	import logo from '$lib/images/1rg_logo.svg';
+	import Logo from '$lib/components/Logo.svelte';
 	import { fly, fade } from 'svelte/transition';
 
 	import { page } from '$app/stores';
@@ -33,7 +33,7 @@
 		<XButton on:click={() => (open = false)} class="absolute top-0 right-0" />
 
 		<div class="flex-col items-center justify-center hidden w-1/2 xl:flex">
-			<img class="justify-center h-96" src={logo} alt="1RG Logo" />
+			<Logo class="justify-center text-white h-96"/>
 			<div
 				class="w-full p-5 text-5xl font-bold tracking-wider text-center uppercase bg-darkseagreen"
 				transition:fade={{duration: 1000}}
