@@ -1,5 +1,5 @@
 <script>
-	import dinner from '$lib/images/1rg/047A6931.jpg';
+	import people from '$lib/images/1rg/047A6872.jpg';
 
 	import Button from '$lib/components/Button.svelte';
 	import SpinningStar from '$lib/components/SpinningStar.svelte';
@@ -18,7 +18,7 @@
 	class="grid min-h-[90vh] grid-cols-12 grid-rows-[24rem_2fr_1fr] lg:grid-rows-[32rem_1fr_1fr] xl:grid-rows-5"
 >
 	<div class="col-span-12 lg:row-span-1 xl:col-span-4 xl:row-span-5">
-		<img class="object-cover object-center w-full h-full grayscale" src={dinner} alt="1RG Dinner" />
+		<img class="object-cover object-center md:object-[50%_70%] xl:object-[70%_50%] w-full h-full grayscale" src={people} alt="People at 1RG" />
 	</div>
 	<div class="flex flex-col col-span-12 lg:row-span-1 xl:col-span-8 xl:row-span-2 bg-darkseagreen">
 		<div class="flex justify-center mt-5 mb-8 overflow-hidden">
