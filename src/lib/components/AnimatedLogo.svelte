@@ -1,12 +1,14 @@
 <script lang="ts">
-	import dinner from '$lib/images/dinner.jpg';
-	import people from '$lib/images/people.jpg';
-
-	let images = [people, dinner];
+	import walking from '$lib/images/1rg/047A6102.jpg';
+	import space1 from '$lib/images/1rg/047A6149.jpg';
+	import space2 from '$lib/images/1rg/047A6197.jpg';
+	import space3 from '$lib/images/1rg/047A6548.jpg';
+	import meeting from '$lib/images/1rg/047A6732.jpg';
+	let images = [walking, space1, space2, space3, meeting];
 
 	$: style = `
   #animated-logo {
-    animation: 3s infinite shuffle-backgrounds steps(2, jump-none);
+    animation: ${1.5 * images.length}s infinite shuffle-backgrounds steps(2, jump-none);
   }
   @keyframes shuffle-backgrounds {
     from { background-color: white;	}

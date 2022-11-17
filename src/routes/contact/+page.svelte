@@ -1,5 +1,5 @@
 <script>
-	import people from '$lib/images/people.jpg';
+	import serena_serving from '$lib/images/portraits/047A6622.jpg';
 
 	import Heading from '$lib/components/Heading.svelte';
 </script>
@@ -11,7 +11,7 @@
 <Heading>Contact Contact Contact</Heading>
 <section class="flex flex-col md:flex-row">
 	<div class="md:w-1/2 h-48 md:h-[48rem] xl:h-[56rem]">
-		<img class="object-cover object-right w-full h-full" src={people} alt="contact us" />
+		<img class="object-cover object-right w-full h-full" src={serena_serving} alt="contact us" />
 	</div>
 	<div class="flex flex-col md:w-1/2 bg-stone-50">
 		<div class="p-16 m-auto text-2xl md:max-w-2xl">

@@ -1,5 +1,5 @@
 <script>
-	import dinner from '$lib/images/dinner.jpg';
+	import dinner from '$lib/images/1rg/047A6931.jpg';
 
 	import Button from '$lib/components/Button.svelte';
 	import SpinningStar from '$lib/components/SpinningStar.svelte';

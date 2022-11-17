@@ -1,5 +1,6 @@
 <script>
-	import couch_conversation from '$lib/images/couch_conversation.jpg';
+	import couch_conversation from '$lib/images/1rg/047A6872.jpg'
+
 
 	import Heading from '$lib/components/Heading.svelte';
 </script>
@@ -26,6 +27,8 @@
 	</div>
 	<div class="p-16 text-black bg-white md:w-1/2">
 		<img class="mx-auto grayscale" src={couch_conversation} alt="Conversation on the couch" />
+
+
 		<p class="mt-12 text-xl text-center md:text-left">
 			Our space includes members from non-profits, community organizers, freelance creatives and
 			remote tech teams. Everyone is welcome at 1RG and we believe that the diversity of our members
