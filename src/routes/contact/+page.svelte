@@ -24,7 +24,7 @@
 			</p>
 			<p class="mb-4">Want to become a member? We’d love to see you.</p>
 			<h3 class="mt-10 text-3xl font-bold uppercase text-mediumorchid">Email:</h3>
-			<a href="mailto:team@1rg.space" class="mb-4 text-2xl">team@1rg.space</a>
+			<a href="mailto:team@1rg.space" class="mb-4 text-2xl hover:text-mediumorchid">team@1rg.space</a>
 		</div>
 	</div>
 </section>

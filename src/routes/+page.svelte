@@ -18,7 +18,11 @@
 	class="grid min-h-[90vh] grid-cols-12 grid-rows-[24rem_2fr_1fr] lg:grid-rows-[32rem_1fr_1fr] xl:grid-rows-5"
 >
 	<div class="col-span-12 lg:row-span-1 xl:col-span-4 xl:row-span-5">
-		<img class="object-cover object-center md:object-[50%_70%] xl:object-[70%_50%] w-full h-full grayscale" src={people} alt="People at 1RG" />
+		<img
+			class="object-cover object-center md:object-[50%_70%] xl:object-[70%_50%] w-full h-full grayscale"
+			src={people}
+			alt="People at 1RG"
+		/>
 	</div>
 	<div class="flex flex-col col-span-12 lg:row-span-1 xl:col-span-8 xl:row-span-2 bg-darkseagreen">
 		<div class="flex justify-center mt-5 mb-8 overflow-hidden">
@@ -42,6 +46,7 @@
 	</div>
 	<div class="flex items-center justify-center col-span-8 bg-white xl:col-span-6 xl:row-span-3">
 		<Button
+			href="/events"
 			class="px-6 py-5 m-10 text-2xl font-black leading-tight lg:text-6xl xl:text-8xl xl:leading-normal"
 		>
 			UPCOMING EVENTS

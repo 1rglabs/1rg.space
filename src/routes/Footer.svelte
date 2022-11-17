@@ -21,11 +21,12 @@
 	</div>
 
 	<div class="flex items-center p-10 bg-stone-50">
-		<ul class="text-lg font-bold leading-8 tracking-wider uppercase">
-			<li><a class="hover:text-mediumorchid" href="/memberships">memberships</a></li>
-			<li><a class="hover:text-mediumorchid" href="/events">events</a></li>
-			<li><a class="hover:text-mediumorchid" href="/about">about</a></li>
-			<li><a class="hover:text-mediumorchid" href="/contact">contact</a></li>
+		<ul class="text-lg font-bold leading-8 tracking-wider uppercase whitespace-nowrap	">
+			<li><a class="hover:text-mediumorchid" href="/memberships">Memberships</a></li>
+			<li><a class="hover:text-mediumorchid" href="/events">Events</a></li>
+			<li><a class="hover:text-mediumorchid" href="/about">About</a></li>
+			<li><a class="hover:text-mediumorchid" href="/contact">Contact</a></li>
+			<li><a class="hover:text-mediumorchid" href="/contact">Member Space</a></li>
 		</ul>
 	</div>
 </footer>
