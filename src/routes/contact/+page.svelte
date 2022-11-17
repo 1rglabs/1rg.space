@@ -10,8 +10,8 @@
 
 <Heading>Contact Contact Contact</Heading>
 <section class="flex flex-col md:flex-row">
-	<div class="md:w-1/2 h-48 md:h-[48rem] xl:h-[56rem]">
-		<img class="object-cover object-right w-full h-full" src={serena_serving} alt="contact us" />
+	<div class="md:w-1/2 h-48 md:h-[56rem] lg:h-[48rem]">
+		<img class="object-cover object-[50%_50%] w-full h-full" src={serena_serving} alt="contact us" />
 	</div>
 	<div class="flex flex-col md:w-1/2 bg-stone-50">
 		<div class="p-16 m-auto text-2xl md:max-w-2xl">
