@@ -1,6 +1,6 @@
 <script>
-	import couch_conversation from '$lib/images/1rg/047A6872.jpg'
-
+	import couch_conversation from '$lib/images/1rg/047A6872.jpg';
+	import portrait from '$lib/images/portraits/047A5808.jpg';
 
 	import Heading from '$lib/components/Heading.svelte';
 </script>
@@ -28,7 +28,6 @@
 	<div class="p-16 text-black bg-white md:w-1/2">
 		<img class="mx-auto grayscale" src={couch_conversation} alt="Conversation on the couch" />
 
-
 		<p class="mt-12 text-xl text-center md:text-left">
 			Our space includes members from non-profits, community organizers, freelance creatives and
 			remote tech teams. Everyone is welcome at 1RG and we believe that the diversity of our members
@@ -36,20 +35,28 @@
 		</p>
 	</div>
 </section>
-<section class="flex flex-col p-16 text-center text-white bg-black md:flex-row space-y-28 md:space-y-0 md:space-x-16">
-	<div class="">
+<section class="flex flex-col text-white bg-black xl:items-stretch xl:flex-row ">
+	<div class="p-16 space-y-5 text-xl xl:w-1/2">
 		<p>
-			“1RG Provides a space where I can connect with like minded individuals who have a strong
-			community connection”
+			1RG was started by <a class="hover:text-mediumorchid" href="https://max.computer"
+				>Max Veytsman</a
+			>
+			and
+			<a href="https://www.serenaperuzzo.com/" class="hover:text-mediumorchid">Serena Peruzzo</a> in
+			May 2022.
 		</p>
-		<p class="mt-8">— Muzen —</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+			laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+		<p>
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+			pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+			mollit anim id est laborum.
+		</p>
 	</div>
-
-	<div class="">
-		<p>
-			“I've had the priveledge to attend one of the open mic nights at 1RG and it was an amazing
-			experience!”
-		</p>
-		<p class="mt-8">— Lauren M —</p>
+	<div class="flex justify-center p-16 -mt-20 xl:w-1/2 xl:mt-0">
+		<img class="object-cover object-center w-4/5 h-full xl:w-full" src={portrait} alt="Max & Serena" />
 	</div>
 </section>
