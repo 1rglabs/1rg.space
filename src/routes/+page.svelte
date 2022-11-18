@@ -15,7 +15,7 @@
 	<AnimatedLogo />
 </section>
 <section
-	class="grid min-h-[90vh] grid-cols-12 grid-rows-[24rem_2fr_1fr] lg:grid-rows-[32rem_1fr_1fr] xl:grid-rows-5"
+	class="grid min-h-[90vh] grid-cols-12 grid-rows-[20rem_1fr_1fr] md:grid-rows-[24rem_1fr_1fr] lg:grid-rows-[32rem_1fr_1fr] xl:grid-rows-5"
 >
 	<div class="col-span-12 lg:row-span-1 xl:col-span-4 xl:row-span-5">
 		<img
@@ -27,7 +27,7 @@
 	<div class="flex flex-col col-span-12 lg:row-span-1 xl:col-span-8 xl:row-span-2 bg-darkseagreen">
 		<div class="flex justify-center mt-5 mb-8 overflow-hidden">
 			<h1
-				class="mt-5 font-black text-center xl:mt-20 md:whitespace-nowrap text-8xl md:text-9xl xl:text-10xl"
+				class="mt-5 text-6xl font-black text-center xl:mt-20 md:whitespace-nowrap md:text-9xl xl:text-10xl"
 			>
 				1RG / 1RG / 1RG
 			</h1>
