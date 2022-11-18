@@ -8,8 +8,9 @@
 	<div class="flex flex-col w-full lg:flex-row md:pl-0 md:pt-0 bg-darkseagreen p-7">
 		<div class="font-black uppercase text-8xl xl:text-9xl lg:w-1/2">Join the list</div>
 		<div class="flex flex-col justify-end flex-1 space-y-5">
-			<div class="text-lg font-bold tracking-widest uppercase w-96">
-				subscribe for exclusive updates on our events
+			<div class="text-lg font-bold tracking-widest uppercase">
+				<p>subscribe for exclusive</p>
+				<p>updates on our events</p>
 			</div>
 			<div class="flex flex-col justify-end flex-1 md:flex-none md:flex-row md:items-end">
 				<div class="w-full "><Input class="w-full" placeholder="Email" /></div>
