@@ -20,7 +20,7 @@
 <section class="flex flex-col md:flex-row">
 	<div class="p-20 text-white bg-mediumorchid md:w-1/2 md:flex md:items-center">
 		<p
-			class="text-lg xl:text-8xl md:text-xl md:leading-[4.5rem] xl:leading-none xl:tracking-widest font-bold tracking-[.3em] text-center uppercase"
+			class="text-lg leading-loose xl:text-8xl md:text-xl md:leading-[4.5rem] xl:leading-none xl:tracking-widest font-semibold tracking-[.3em] text-center uppercase"
 		>
 			Making Space for Everyone
 		</p>
@@ -57,6 +57,10 @@
 		</p>
 	</div>
 	<div class="flex justify-center p-16 -mt-20 xl:w-1/2 xl:mt-0">
-		<img class="object-cover object-center w-4/5 h-full xl:w-full" src={portrait} alt="Max & Serena" />
+		<img
+			class="object-cover object-center w-4/5 h-full xl:w-full"
+			src={portrait}
+			alt="Max & Serena"
+		/>
 	</div>
 </section>
