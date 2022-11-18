@@ -34,9 +34,11 @@ const config = {
 				'13': 'repeat(13, minmax(0, 1fr))'
 			}
 		},
-		future: {
-			hoverOnlyWhenSupported: true,
-		},
+
+	},
+
+	future: {
+		hoverOnlyWhenSupported: true,
 	},
 
 	plugins: []
