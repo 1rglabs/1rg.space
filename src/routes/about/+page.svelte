@@ -38,22 +38,22 @@
 <section class="flex flex-col text-white bg-black xl:items-stretch xl:flex-row ">
 	<div class="p-16 space-y-5 text-xl xl:w-1/2">
 		<p>
-			1RG was started by <a class="hover:text-mediumorchid" href="https://max.computer"
+			1RG was started by <a class="underline hover:text-mediumorchid" href="https://max.computer"
 				>Max Veytsman</a
 			>
 			and
-			<a href="https://www.serenaperuzzo.com/" class="hover:text-mediumorchid">Serena Peruzzo</a> in
-			May 2022.
+			<a href="https://www.serenaperuzzo.com/" class="underline hover:text-mediumorchid"
+				>Serena Peruzzo</a
+			> in May 2022.
 		</p>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-			laboris nisi ut aliquip ex ea commodo consequat.
+			Serena and Max share a passion for using their technical skills to help organizations that serve
+			their communities.
 		</p>
 		<p>
-			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-			pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-			mollit anim id est laborum.
+			Together they founded 1RG to create a space where technologists, artists, and people working
+			in the solidarity economy can mingle and explore human-centric approaches to technology. A
+			space for the curious creative and caring.
 		</p>
 	</div>
 	<div class="flex justify-center p-16 -mt-20 xl:w-1/2 xl:mt-0">
