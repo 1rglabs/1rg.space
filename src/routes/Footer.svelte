@@ -15,14 +15,14 @@
 			<div class="flex flex-col justify-end flex-1 md:flex-none md:flex-row md:items-end">
 				<div class="w-full "><Input class="w-full" placeholder="Email" /></div>
 				<div class="mt-2 ml-2">
-					<Button class="px-1 mt-5 text-4xl uppercase " hoverColor="white">subscribe</Button>
+					<Button href="https://1rg.eo.page/subscribe" class="px-1 mt-5 text-4xl uppercase " hoverColor="white">subscribe</Button>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="flex items-center p-10 bg-stone-50">
-		<ul class="text-lg font-bold leading-8 tracking-wider uppercase whitespace-nowrap	">
+		<ul class="text-lg font-bold leading-8 tracking-wider uppercase whitespace-nowrap ">
 			<li><a class="hover:text-mediumorchid" href="/memberships">Memberships</a></li>
 			<li><a class="hover:text-mediumorchid" href="/events">Events</a></li>
 			<li><a class="hover:text-mediumorchid" href="/about">About</a></li>
