@@ -42,7 +42,7 @@
 				>Max Veytsman</a
 			>
 			and
-			<a href="https://www.serenaperuzzo.com/" class="underline hover:text-mediumorchid"
+			<a href="https://words.serenaperuzzo.com/" class="underline hover:text-mediumorchid"
 				>Serena Peruzzo</a
 			> in May 2022.
 		</p>

@@ -21,7 +21,7 @@
 	<div
 		class="flex flex-col justify-center p-16 space-y-10 text-xl font-semibold leading-10 tracking-widest text-center uppercase lg:leading-loose lg:text-2xl md:w-1/2 bg-stone-50 text-mediumorchid"
 	>
-		<p>Memberships at 1RG are currently on pause as we reground for 2023.</p>
+		<p>Memberships at 1RG are currently on pause as we regroup for 2023.</p>
 
 		<p>
 			For more, sign up for our list below, or
