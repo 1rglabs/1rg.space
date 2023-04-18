@@ -3,17 +3,5 @@ command = "npm run build"
 publish = "build"
 
 [[redirects]]
-from = "/go"
-to = "https://airtable.com/shrir50ElwQrtVUUJ?prefill_Notes=Go%20Meetup"
-
-[[redirects]]
-from = "/booking"
-to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit?usp=sharing"
-
-[[redirects]]
-from = "/bookings"
-to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit?usp=sharing"
-
-[[redirects]]
-from = "/takemymoney"
-to = "https://buy.stripe.com/aEUcO80HW3p05OM3cc"
+from = "/subscribe"
+to = "https://1rg.eo.page/subscribe"
