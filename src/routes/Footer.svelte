@@ -12,10 +12,9 @@
 				<p>subscribe for exclusive</p>
 				<p>updates on our events</p>
 			</div>
-			<div class="flex flex-col justify-end flex-1 md:flex-none md:flex-row md:items-end">
-				<div class="w-full "><Input class="w-full" placeholder="Email" /></div>
-				<div class="mt-2 ml-2">
-					<Button href="https://1rg.eo.page/subscribe" class="px-1 mt-5 text-4xl uppercase " hoverColor="white">subscribe</Button>
+			<div class="flex flex-col flex-1 md:flex-none md:flex-row md:items-end">
+				<div class="mt-2">
+					<Button href="https://1rg.space/subscribe" class="px-1 mt-5 text-4xl uppercase " hoverColor="white">join the list</Button>
 				</div>
 			</div>
 		</div>
