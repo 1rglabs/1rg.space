@@ -1,7 +1,7 @@
 <script>
   import Heading from '$lib/components/Heading.svelte';
   export let data;
-  console.log({data});
+  // console.log({data});
 </script>
 
 
@@ -11,16 +11,14 @@
     </p>
 
     <Heading>{data.title}</Heading>
-
 </section>
-
 
 <section class="flex justify-center h-20 bg-green-400"/>
 
 
 <!-- Who -->
 <section class="p-20 bg-blue-300">
-  {data.who}
+  {@html data.who}
 </section>
 
 <!-- Challenges -->
@@ -38,7 +36,7 @@
     {/if}
 
     {#if impact.type == "image"}
-    <img src={impact.content}/>
+    <img alt="case-study" src={impact.content}/>
     {/if}
   {/each}
 </section>
