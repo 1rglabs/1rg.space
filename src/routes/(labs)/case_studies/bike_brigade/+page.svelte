@@ -11,6 +11,4 @@
   <title>Case Study - Bike Brigade</title>
 </svelte:head>
 
-<Heading>Bike Brigade</Heading>
-
 <CaseStudy data={bike_brigade}/>
