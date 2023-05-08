@@ -16,36 +16,21 @@
   </p>
 </section>
 <!-- Our Framework -->
-<section class="flex flex-col">
-  <SectionHeading>
-    Our Framework
-  </SectionHeading>
-
-  <hr/>
-  <div class="md:max-w-3xl lg:w-1/2 p-12 lg:p-20">
+  <SectionHeading sectionTitle="Our Framework" >
     <p class="mb-12 xl:mt:16">
       1RG Labs operates differently than a typical consultancy or design studio. Our core belief is that technology is an amplifier that allows organizations to maximize their impact, but deciding how to use technology requires trusted expertise and data-driven decision making.
     </p>
-
     <p class="mb-12">
       Our experience has been that there is a disconnect between the intuitions of consumers and producers of technology - on the one hand, things that appear to be difficult and expensive to a client are known to be easy and cheap to a technologist. On the other hand, technologists tend to overemphasize technical solutions to social problems.
     </p>
     <p class="mb-12">
       We seek to bridge this gap by embedding with organizations that don’t have internal expertise to be their fractional tech team. Our focus is on long-term relationships, providing data insights and expertise to support decision making, and using our close and ongoing relationship with clients to find and implement low-effort/high-impact solutions.
     </p>
-  </div>
-
-</section>
+  </SectionHeading>
 
 
 <!-- Three Pillars -->
-<section class="">
-
-  <SectionHeading>
-    Three Pillars
-  </SectionHeading>
-
-  <div class="md:max-w-3xl lg:w-1/2 p-12 lg:p-20">
+  <SectionHeading sectionTitle="Three Pillars" isReversed={true}>
     <p>The 1RG Labs framework is centered around three pillars:</p>
     <p class="mb-12 mt-8">
       Domain knowledge: our team is embedded in the organization, with regular check-ins serving as a primary touch point to gain deep understanding of the mission, priorities, and pain points of the organization as it operates day to day.
@@ -61,13 +46,14 @@
     <p>
       The core of this embedding is a biweekly check-in with the client which structures the rest of our work. The goal is to learn what’s going on in the organization, provide advice, and find ways that we can apply our skills to help that the client might not have anticipated.
     </p>
-  </div>
-</section>
+  </SectionHeading>
 
 <div class="flex w-100 bg-mediumorchid justify-center">
-  <SectionHeading>
-    The Team
-  </SectionHeading>
+		<div class="p-12 text-white bg-mediumorchid md:flex md:items-center">
+			<p class="text-lg leading-loose xl:text-8xl md:text-xl md:leading-[4.5rem] xl:leading-none xl:tracking-widest font-semibold tracking-[.3em] text-center uppercase" >
+				The Team
+			</p>
+		</div>
 </div>
 
 <section class="flex flex-col text-white bg-black xl:items-stretch xl:flex-row pb-24">
