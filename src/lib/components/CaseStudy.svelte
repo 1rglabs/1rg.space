@@ -1,5 +1,4 @@
 <script>
-  import Heading from '$lib/components/Heading.svelte';
   export let data;
 </script>
 

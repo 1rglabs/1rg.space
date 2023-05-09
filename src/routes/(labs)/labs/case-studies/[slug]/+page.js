@@ -1,12 +1,12 @@
 /** @type {import('./$types').PageLoad} */
 
 
-import bike_brigade from '$lib/case_studies/bike_brigade.json';
-import nfftt from '$lib/case_studies/not_far_from_the_tree.json';
+import bike_brigade from '$lib/case-studies/bike_brigade.json';
+import nfftt from '$lib/case-studies/not_far_from_the_tree.json';
 import { error } from '@sveltejs/kit';
 
 const pages = {
-  bike_brigade,
+  "bike-brigade": bike_brigade,
   nfftt
 }
 

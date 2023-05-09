@@ -1,11 +1,7 @@
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	purge: {
-        // some classes are used dynamically (ex: through dynamic routing of case studies)
-		options: {
-			safelist: ["text-blue-600"],
-		},
-	},
+    // case studies (json files) use classes dynamically
+	safelist: ["text-blue-600"],
 
 	theme: {
 		fontSize: {
