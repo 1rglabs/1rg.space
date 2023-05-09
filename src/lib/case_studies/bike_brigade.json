@@ -9,13 +9,13 @@
   "impact": [
     {"type": "text", "content": "The founders of 1RG Labs were involved with Bike Brigade from the early days, building the tools that helped them scale to over 30,000 deliveries completed, and the analytics pipeline to track them."},
     {"type": "text", "content": "This involved a custom open-source <a href='https://github.com/bikebrigade/dispatch'>dispatching platform</a> and custom analytics dashboards."},
-    {"type": "image", "content": "http://placekitten.com/200/300"}
+    {"type": "image", "content": "/images/case_study_bb.png"}
   ],
   "quotes": [
     {
     "quote": "They custom-built exactly what was needed to track data that would inform weekly operations and future planning.",
     "source": "Rachel Wang (Executive Director)",
-    "context": "from <a href='https://sicanada.org/2022/11/22/a-dashboard-two-wheels-and-social-impact/'>A Dashboard, Two Wheels and Social Impact (Social Innovation Canada)</a>."
+    "context": "from <a class='text-blue-700' href='https://sicanada.org/2022/11/22/a-dashboard-two-wheels-and-social-impact/'>A Dashboard, Two Wheels and Social Impact (Social Innovation Canada)</a>."
     }
   ]
 }
