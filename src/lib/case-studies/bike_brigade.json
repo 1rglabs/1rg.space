@@ -2,7 +2,8 @@
   "title": "Bike Brigade",
   "who": "The Bike Brigade is a group of 1000+ volunteer cyclists delivering food and other essentials by bike across Toronto. They work directly with equity-seeking groups, food banks and other non-profits that are supporting vulnerable folks and underinvested communities in Toronto by providing last-mile deliveries on behalf of their partners.",
   "challenges": "The Bike Brigade came about as a direct response to the COVID19 pandemic, and was initially organized via Facebook groups, email lists, and Google spreadsheets. As its impact grew, Bike Brigade found itself taking on more and more partners, and found that the ad-hoc tools it started with weren’t up to the task of organizing hundreds of volunteers a week.",
-
+  "logo": "/images/bb_img.jpg",
+  "slug": "bike-brigade",
   "challenges": [
     {"type": "text", "content": "The Bike Brigade came about as a direct response to the COVID19 pandemic, and was initially organized via Facebook groups, email lists, and Google spreadsheets. As its impact grew, Bike Brigade found itself taking on more and more partners, and found that the ad-hoc tools it started with weren’t up to the task of organizing hundreds of volunteers a week."}
     ],

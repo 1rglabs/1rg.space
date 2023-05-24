@@ -1,6 +1,8 @@
 {
   "title": "Not Far From the Tree",
   "who": "<a class='text-blue-600' href='https://notfarfromthetree.org/' target='_blank'>Not Far From The Tree</a> (NFFTT) is a not for profit and Toronto’s fruit picking and sharing project. They connect generous tree registrants with fruiting trees in their yards to volunteers in their community who are willing to pick and share it, with part of the yield of each pick going to food agencies.",
+  "logo": "/images/nfftt_img.jpeg",
+  "slug": "nfftt",
   "challenges": [
     {"type": "text", "content": "NFFTT relies on a custom built online portal to schedule picks, manage equipment, and engage with tree owners, volunteers, and food agencies. The digital agency they originally engaged in building the portal is no longer in business, and NFFTT has been struggling with addressing platform stability and usability issues."},
     {"type": "text", "content": "Along with user experience, the platform did not provide access to reliable operational data, limiting staff’s ability to set policies and evaluate the health of the organization."

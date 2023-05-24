@@ -4,7 +4,7 @@
 
 
 <section class="flex flex-col justify-center items-center p-10 bg-black md:p-20 text-center text-white">
-	<p class="max-w-6xl text-5xl xl:text-8xl  font-bold leading-normal">{data.title}</p>
+	<p class="max-w-6xl text-5xl xl:text-8xl font-bold leading-normal">{data.title}</p>
 </section>
 
 <!-- Who -->
