@@ -1,8 +1,8 @@
 <script>
   import portrait from '$lib/images/portraits/047A5808.jpg';
   import SectionHeading from '$lib/components/SectionHeading.svelte';
-	import Logo from '$lib/components/Logo.svelte';
-	import { fade } from 'svelte/transition';
+  import Logo from '$lib/components/Logo.svelte';
+  import { fade } from 'svelte/transition';
   import { onMount } from 'svelte'
 
   let runFade = false;
@@ -20,31 +20,16 @@
 </svelte:head>
 
 <div id="hero" class="flex flex-col bg-black ">
-  <div class="w-full flex flex-col md:flex-row justify-center items-center bg-black h-96 md:h-screen relative">
-    <div class="mr-4">
-      <div class="bg-mediumorchid w-64">
-        <Logo class="bg-darkseagreen"/>
-      </div>
-    </div>
-
-    <div class="text-white mt-4 md:mt-0 text-6xl xl:text-9xl font-bold">Labs.</div>
+  <div class="w-full flex flex-col justify-center items-center bg-black  md:h-screen relative">
+    <div class="text-white mt-16 md:mt-0 text-4xl lg:text-6xl xl:text-10xl font-bold mb-12">1RG Labs</div>
+    <section class="flex justify-center bg-black pb-24">
+      <p class="max-w-4xl text-md md:text-lg xl:text-2xl font-light leading-normal text-center text-gray-300 px-12">
+        1RG Labs exists to provide NGOs, non-profits, and socially impactful organizations with the kind of software & data expertise that's normally reserved for Big Tech.
+      </p>
+    </section>
   </div>
-
-  {#if runFade && showArrow}
-    <div transition:fade="{{duration: 800 }}" class="w-12 absolute left-0 right-0 m-auto bottom-32 animate-pulse">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" class="w-12 h-12">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-    </svg>
-  </div>
-  {/if}
-
 </div>
 
-<section class="flex justify-center bg-black pb-24">
-  <p class="max-w-6xl text-md xl:text-2xl font-light leading-normal text-center text-gray-300 px-12">
-    1RG Labs exists to provide NGOs, non-profits, and socially impactful organizations with the kind of software & data expertise that's normally reserved for Big Tech. Primarily, we operate as a fractional tech team in order to deliver these services at a level that’s financially sustainable to the organizations we serve.
-  </p>
-</section>
 <!-- Our Framework -->
 <SectionHeading sectionTitle="Our Framework" >
   <p class="mb-12 xl:mt:16">
@@ -78,29 +63,20 @@
   </p>
 </SectionHeading>
 
-<div class="flex w-100 bg-mediumorchid justify-center">
-  <div class="p-12 text-white bg-mediumorchid md:flex md:items-center">
-    <p class="text-lg leading-loose xl:text-8xl md:text-xl md:leading-[4.5rem] xl:leading-none xl:tracking-widest font-semibold tracking-[.3em] text-center uppercase" >
-      The Team
-    </p>
-  </div>
-</div>
 
 <section class="flex flex-col text-white bg-black xl:items-stretch xl:flex-row pb-24">
-  <div class="p-16 space-y-5 text-md xl:text-lg xl:w-1/2 ">
+  <div class="p-12 space-y-5 text-md xl:text-lg xl:w-1/2 ">
     <p>
       1RG Labs was founded by <a class="underline hover:text-mediumorchid" href="https://max.computer" >Max Veytsman</a > and <a href="https://words.serenaperuzzo.com/" class="underline hover:text-mediumorchid" >Serena Peruzzo</a>.
     </p>
     <p>
-      Max has over a decade of experience in tech, having worked as a professional hacker, a startup CEO and a software engineer. Most recently he was a Senior Engineer at GitHub, and the Founding Engineer at Bike Brigade where he developed their dispatching platform.
-      Serena and Max share a passion for using their technical skills to help organizations that serve
-      their communities.
+      Max has over a decade of experience in tech, having worked as a professional hacker, a startup CEO and a software engineer. Most recently he was a Senior Engineer at GitHub, and the Founding Engineer at Bike Brigade where he developed their dispatching platform. Serena and Max share a passion for using their technical skills to help organizations that serve their communities.
     </p>
     <p>
       Serena has worked both in academia as a machine learning researcher and in the industry as a data science consultant on the Australian, British and Canadian markets. Most recently she was a Senior Data Scientist at Shopify where she built data products to influence platform improvement and program decisions. She has a passion for travel, photography, and public speaking.
     </p>
   </div>
-  <div class="flex justify-center p-16 -mt-20 xl:w-1/2 xl:mt-0">
+  <div class="flex justify-center p-12 xl:p-20 -mt-20 xl:w-1/2 xl:mt-0">
     <img class="object-cover object-center h-full xl:w-full" src={portrait} alt="Max & Serena"/>
   </div>
 </section>
