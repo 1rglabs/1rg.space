@@ -21,8 +21,8 @@
  		<div class="py-5 text-lg font-bold uppercase md:py-0 lg:text-2xl">{event.name}</div>
  	</div>
  	<div class="py-6">
- 		<p class="mt-3">
- 			{event.description}
+ 		<p class="mt-3 event-description">
+ 			{@html event.description}
  		</p>
  	</div>
 

@@ -27,7 +27,7 @@ export default [
       start: "6pm",
       end: "8:30pm"
     },
-    description: "​Mauve will give a short intro on using the p2p web and get folks set up with with Agregore",
+    description: "<a href='https://ranger.mauve.moe/'>​Mauve</a> will run a workshop introducing folks to using peer to peer web APIs in the <a href='https://agregore.mauve.moe/'>Agregore</a> Web Browser. Bring your laptop and a keyboard and be prepared to do some light HTML/CSS/JavaScript!",
     invite: {
       text: "RSVP",
       url: "https://lu.ma/ji5oo2gv",

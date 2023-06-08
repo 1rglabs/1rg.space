@@ -11,3 +11,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+/* Css for dynamic pages (events) */
+
+.event-description a {
+  @apply text-mediumorchid hover:text-black;
+}
