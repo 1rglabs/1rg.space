@@ -26,7 +26,6 @@
 			<li><a class="hover:text-mediumorchid" href="/events">Events</a></li>
 			<li><a class="hover:text-mediumorchid" href="/about">About</a></li>
 			<li><a class="hover:text-mediumorchid" href="/contact">Contact</a></li>
-			<li><a class="hover:text-mediumorchid" href="/contact">Member Space</a></li>
 		</ul>
 	</div>
 </footer>
