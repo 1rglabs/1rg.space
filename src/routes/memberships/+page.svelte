@@ -36,12 +36,12 @@
 
 		<!-- Community Membership -->
 			<div class="flex flex-col p-8 border-2 rounded-md border-slate-300 shadow">
-				<div class="text-center font-bold uppercase text-xl lg:text-2xl tracking-wide text-mediumorchid">Community Membership</div>
-				<div class="mt-4 text-center font text-lg lg:text-xl">
+				<div class="text-center font-bold uppercase text-lg lg:text-xl tracking-wide text-mediumorchid">Community Membership</div>
+				<div class="mt-4 text-center font text-m lg:text-lg">
 					
 					You're part of the 1RG community, but don't need a workspace. You'll get access to Tuesday dinners, and a weekly open house on Thursday where you can come use the space during the day for co-working, or just to drop by!
 				</div>
-				<div class="mt-4 font text-lg lg:text-xl">
+				<div class="mt-4 font text-m lg:text-lg">
 					What's included:
 					<ul class="list-disc list-inside ml-4">
 						<li>Tuesday Community Dinners</li>
@@ -51,18 +51,18 @@
 					</ul>
 				</div>
 				<div class="mt-10 text-center">
-					<p class="font-bold text-xl lg:text-2xl">$100/month + HST</p>
-					<p class="text-lg lg:text-xl">cancel any time</p>
+					<p class="font-bold text-lg lg:text-xl">$100/month + HST</p>
+					<p class="text-m lg:text-lg">cancel any time</p>
 				</div>
 			</div>
 
 			<!-- Hot Desk -->
 			<div class="flex flex-col p-8 border-2 rounded-md border-slate-300 shadow">
-				<div class="text-center font-bold uppercase text-xl lg:text-2xl tracking-wide text-mediumorchid">Hot Desk</div>
-				<div class="mt-4 text-center font text-lg lg:text-xl">
+				<div class="text-center font-bold uppercase text-lg lg:text-xl tracking-wide text-mediumorchid">Hot Desk</div>
+				<div class="mt-4 text-center font text-m lg:text-lg">
 					1RG is part of your rountine but you're not working here every day. You'll get access during business hours and can use any of the vailable desks. This is for people that want to be engaged in the community and love working from here, but don't need a committed office.
 				</div>
-				<div class="mt-4 font text-lg lg:text-xl">
+				<div class="mt-4 font text-m lg:text-lg">
 					What's included:
 					<ul class="list-disc list-inside ml-4">
 						<li>Tuesday Community Dinners</li>
@@ -72,18 +72,18 @@
 					</ul>
 				</div>
 				<div class="mt-10 text-center">
-					<p class="font-bold text-xl lg:text-2xl">$300/month + HST</p>
-					<p class="text-lg lg:text-xl">cancel any time</p>
+					<p class="font-bold text-lg lg:text-xl">$300/month + HST</p>
+					<p class="text-m lg:text-lg">cancel any time</p>
 				</div>
 			</div>
 			
 			<!-- Dedicated Desk -->
 			<div class="flex flex-col p-8 border-2 rounded-md border-slate-300 shadow">
-				<div class="text-center font-bold uppercase text-xl lg:text-2xl tracking-wide text-mediumorchid">Dedicated Desk</div>
-				<div class="mt-4 text-center font text-lg lg:text-xl">
+				<div class="text-center font-bold uppercase text-lg lg:text-xl tracking-wide text-mediumorchid">Dedicated Desk</div>
+				<div class="mt-4 text-center font text-m lg:text-lg">
 					1RG is your permanent office. You'll get 24/7 access with keys, a dedicated desk, and the ability to throw events in the space (up to 30 people). This is for people who want to actively engage in helping shape the space and community.
 				</div>
-				<div class="mt-4 font text-lg lg:text-xl">
+				<div class="mt-4 font text-m lg:text-lg">
 					What's included:
 					<ul class="list-disc list-inside ml-4">
 						<li>Tuesday Community Dinners</li>
@@ -93,8 +93,8 @@
 					</ul>
 				</div>
 				<div class="mt-10 text-center">
-					<p class="font-bold text-xl lg:text-2xl">$500/month + HST</p>
-					<p class="text-lg lg:text-xl">6 months commitment required</p>
+					<p class="font-bold text-lg lg:text-xl">$500/month + HST</p>
+					<p class="text-m lg:text-lg">6 months commitment required</p>
 				</div>
 			</div>
 	</div>
