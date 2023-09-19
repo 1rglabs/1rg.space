@@ -21,42 +21,16 @@
 
 export default [
   {
-    name: "DWeb YYZ June Meetup",
-    date: "June 15, 2023",
+    name: "DWeb Drop-in Coworking",
+    date: "September 26, 2023",
     time: {
-      start: "6pm",
-      end: "8:30pm"
+      start: "2pm",
+      end: "5pm"
     },
-    description: "<a href='https://ranger.mauve.moe/'>​Mauve</a> will run a workshop introducing folks to using peer to peer web APIs in the <a href='https://agregore.mauve.moe/'>Agregore</a> Web Browser. Bring your laptop and a keyboard and be prepared to do some light HTML/CSS/JavaScript!",
+    description: "​Drop in and introduce yourself, hear what others are working on, get help or feedback on a DWeb project you're working on, or just put on some headphones and use the wifi to get some work done outside of your own space.",
     invite: {
       text: "RSVP",
-      url: "https://lu.ma/ji5oo2gv",
-    }
-  },
-  {
-    name: "Felt Toronto Meetup",
-    date: "July 3, 2023",
-    time: {
-      start: "6pm",
-      end: "8:30pm"
-    },
-    description: "Join us for a series of lightning talks and a mapping party.",
-    invite: {
-      text: "RSVP",
-      url: "https://lu.ma/felt-toronto",
-    }
-  },
-  {
-    name: "DWeb YYZ August Meetup",
-    date: "August 30, 2023",
-    time: {
-      start: "6pm",
-      end: "9pm"
-    },
-    description: "​Lightning talks? Snacks? Demos? Hacking! Let us know in the sign up what you'd like to do.",
-    invite: {
-      text: "RSVP",
-      url: "https://lu.ma/ckuvu4l9",
+      url: "https://lu.ma/dwebdropin-yyz",
     }
   },
 
