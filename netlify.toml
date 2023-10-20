@@ -13,3 +13,7 @@ to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s
 [[redirects]]
 from = "/booking"
 to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit#gid=861990204"
+
+[[redirects]]
+from = "/potluck"
+to = "https://docs.google.com/spreadsheets/d/1UsJSr2I3FszcxFmr58FUQE1dQ8j30ioTNU_pIS-ivoA/edit?usp=sharing"
