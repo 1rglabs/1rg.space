@@ -7,12 +7,12 @@
 	let membershipCardCopy = {
 		"Community Membership": {
 			description: "You're part of the 1RG community, but don't need a workspace. You'll get access to Tuesday dinners, and a weekly open house on Thursday where you can come use the space during the day for co-working, or just to drop by!",
-			access: "Access to 1RG on Thursday between 8am and 6pm",
+			access: "Access any 1 day a week 8am-10pm",
 			price: "100"
 		},
 		"Hot Desk": {
 			description: "1RG is part of your rountine but you're not working here every day. You'll get access during business hours and can use any of the vailable desks. This is for people that want to be engaged in the community and love working from here, but don't need a committed office.",
-			access: "Access to 1RG Monday to Friday between 8am and 6pm",
+			access: "Access Mon-Fri 8am-10pm",
 			price: "300"
 		},
 		"Dedicated Desk": {

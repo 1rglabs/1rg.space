@@ -15,9 +15,10 @@
     <div class="row-span-2 mt-2 font text-m lg:text-lg">
         What's included:
         <ul class="list-disc list-inside ml-4">
-            <li>Tuesday Community Dinners</li>
+            <li>Community events every Tuesday</li>
+            <li>Monthly Community Dinner</li>
             <li>{access}</li>
-            <li>Any future community event</li>
+            <li>Any future community events</li>
             <li>Open guest policy</li>
         </ul>
     </div>
