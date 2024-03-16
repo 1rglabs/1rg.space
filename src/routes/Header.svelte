@@ -12,8 +12,11 @@
 	</a>
 	<div class="flex items-center justify-end w-full">
 		<div class="text-white mr-2 md:mr-8 flex items-center text-lg md:text-xl font-bold uppercase">
-				<a class="hover:text-darkseagreen" href="https://labs.1rg.space/">1RG Labs</a>
-	  </div>
+			<a class="hover:text-darkseagreen" href="https://words.1rg.space/">Words</a>
+		</div>
+		<div class="text-white mr-2 md:mr-8 flex items-center text-lg md:text-xl font-bold uppercase">
+			<a class="hover:text-darkseagreen" href="https://labs.1rg.space/">Labs</a>
+		</div>
 		<HamburgerButton on:click={() => (menuOpen = true)} />
 	</div>
 </header>
