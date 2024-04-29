@@ -7,13 +7,5 @@ from = "/subscribe"
 to = "https://1rg.eo.page/subscribe"
 
 [[redirects]]
-from = "/bookings"
-to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit#gid=861990204"
-
-[[redirects]]
-from = "/booking"
-to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit#gid=861990204"
-
-[[redirects]]
-from = "/potluck"
-to = "https://docs.google.com/spreadsheets/d/1UsJSr2I3FszcxFmr58FUQE1dQ8j30ioTNU_pIS-ivoA/edit?usp=sharing"
+from = "/code-of-conduct"
+to = "https://docs.google.com/document/d/1cXFLAt9BCyJQ8zJtJyK8hw4hw7fX95UCmzn2PH-y_Fk/edit#heading=h.wouxtmumjbmh"
