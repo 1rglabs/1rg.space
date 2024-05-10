@@ -3,6 +3,11 @@ command = "npm run build"
 publish = "build"
 
 [[redirects]]
+from = "https://1rg.club/*"
+to = "https://1rg.space/:splat"
+status = 301
+
+[[redirects]]
 from = "/subscribe"
 to = "https://1rg.eo.page/subscribe"
 
