@@ -11,7 +11,7 @@
 
 <Heading>Events Events Events</Heading>
 
-<section class="flex flex-col px-20 py-16 bg-white overflow-auto">
+<section class="flex flex-col md:px-20 md:py-16 bg-white overflow-auto">
 	<iframe
 		title="1RG Public Calendar"
 		src="https://lu.ma/embed/calendar/cal-wYZCgwOcJN8kiNH/events"
