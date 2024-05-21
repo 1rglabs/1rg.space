@@ -11,14 +11,13 @@
 
 <Heading>Events Events Events</Heading>
 
-<section class="flex flex-col md:px-20 md:py-16 bg-white overflow-auto">
+<section class="flex flex-col overflow-auto h-[50rem]">
 	<iframe
 		title="1RG Public Calendar"
 		src="https://lu.ma/embed/calendar/cal-wYZCgwOcJN8kiNH/events"
 		width="100%"
-		height="500"
+		height="100%"
 		frameborder="0"
-		style="border: 1px solid #bfcbda88; border-radius: 4px;"
 		allowfullscreen="false"
 		aria-hidden="false"
 		tabindex="0"
