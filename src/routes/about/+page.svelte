@@ -1,6 +1,6 @@
 <script>
 	import couch_conversation from '$lib/images/1rg/047A6872.jpg';
-	import portrait from '$lib/images/portraits/047A5808.jpg';
+	import map from '$lib/images/map.jpeg';
 
 	import Heading from '$lib/components/Heading.svelte';
 </script>
@@ -38,29 +38,43 @@
 <section class="flex flex-col text-white bg-black xl:items-stretch xl:flex-row ">
 	<div class="p-16 space-y-5 text-xl xl:w-1/2">
 		<p>
-			1RG was started by <a class="underline hover:text-mediumorchid" href="https://max.computer"
-				>Max Veytsman</a
-			>
-			and
-			<a href="https://words.serenaperuzzo.com/" class="underline hover:text-mediumorchid"
-				>Serena Peruzzo</a
-			> in May 2022.
+			The physical space that we call 1RG is built on the traditional territory of many nations
+			including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and
+			the Wendat peoples and is now home to many diverse First Nations, Inuit and Métis peoples.
+			This land is covered by Treaty 13 with the Mississaugas of the Credit.
 		</p>
+
 		<p>
-			Serena and Max share a passion for using their technical skills to help organizations that serve
-			their communities.
+			Our 1RG community is made up of settlers, immigrants and descendants of immigrants and as
+			such, we recognize the sustained intergenerational trauma and continued colonial violence
+			against Indigenous peoples, including food insecurity, police brutality, residential school
+			denialism and climate change. We recognize that we have ongoing work to continue to learn
+			about our own colonial past and unlearn racist and oppressive behaviors, and to interrupt
+			these behaviors by others whenever and however we can.
 		</p>
+
 		<p>
-			Together they founded 1RG to create a space where technologists, artists, and people working
-			in the solidarity economy can mingle and explore human-centric approaches to technology. A
-			space for the curious creative and caring.
+			We recognize that our efforts are imperfect, and that we participate in and benefit from the
+			ongoing harm of colonization and are committed to an ongoing process of learning.
 		</p>
+
+		<p>We offer these words in humility, and welcome feedback and critique.</p>
 	</div>
 	<div class="flex justify-center p-16 -mt-20 xl:w-1/2 xl:mt-0">
-		<img
-			class="object-cover object-center w-4/5 h-full xl:w-full"
-			src={portrait}
-			alt="Max & Serena"
-		/>
+		<div>
+			<img
+				class="w-4/5 h-full xl:w-full"
+				src={map}
+				alt="2567 Dundas Street West, Toronto, Ontario, Canada, M6P 1X9"
+			/>
+			<div class="text-xl mt-2">
+				1RG is located at
+				<a class="text-white hover:text-mediumorchid"
+				href="https://www.google.com/maps/search/?api=1&query=1RG&query_place_id=ChIJp-ywuOc1K4gRGQKwgOGgukc"
+				target="_blank">
+					2567 Dundas Street West, Toronto
+				</a>
+			</div>
+		</div>
 	</div>
 </section>
