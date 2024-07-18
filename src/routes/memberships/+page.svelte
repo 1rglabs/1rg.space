@@ -3,15 +3,16 @@
 
 	import Heading from '$lib/components/Heading.svelte';
 	import MembershipTierCard from '$lib/components/MembershipTierCard.svelte';
+	import Button from '$lib/components/Button.svelte';
 
 	let membershipCardCopy = {
 		"Community Membership": {
-			description: "You're part of the 1RG community, but don't need a workspace. You'll get access to Tuesday dinners, and a weekly open house on Thursday where you can come use the space during the day for co-working, or just to drop by!",
+			description: "You're part of the 1RG community, but don't need a full-time workspace. You'll get access to private events, and one day a week of your choosing to use the space for co-working, or just to drop by!",
 			access: "Access any 1 day a week 8am-10pm",
 			price: "100"
 		},
 		"Hot Desk": {
-			description: "1RG is part of your rountine but you're not working here every day. You'll get access during business hours and can use any of the vailable desks. This is for people that want to be engaged in the community and love working from here, but don't need a committed office.",
+			description: "1RG is part of your routine but you're not working here every day. You'll get access during business hours and can use any of the available desks. This is for people that want to be engaged in the community and love working from here, but don't need a committed office.",
 			access: "Access Mon-Fri 8am-10pm",
 			price: "300"
 		},
@@ -43,8 +44,8 @@
 	</div>
 
 	<div class="text-center flex flex-col items-center mt-20">
-		<p class="flex flex-col justify-center text-xl font-semibold leading-10 tracking-widest text-center uppercase lg:leading-loose lg:text-2xl md:w-1/2 text-mediumorchid">
-			Interested in joining? Email us at <a class="hover:text-darkseagreen" href="mailto:team@1rg.space">team@1rg.space</a>
+		<p class="flex flex-col justify-center text-xl font-semibold leading-10 tracking-widest text-center uppercase lg:leading-loose lg:text-2xl  text-mediumorchid">
+			<Button href="https://calendly.com/team-1rg/book-a-tour?month=2024-07" class="px-5 py-3 text-4xl uppercase" target="_blank">book a tour</Button>
 		</p>
 	</div>
 </section>
