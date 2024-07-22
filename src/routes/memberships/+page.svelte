@@ -45,7 +45,7 @@
 
 	<div class="text-center flex flex-col items-center mt-20">
 		<p class="flex flex-col justify-center text-xl font-semibold leading-10 tracking-widest text-center uppercase lg:leading-loose lg:text-2xl  text-mediumorchid">
-			<Button href="https://calendly.com/team-1rg/book-a-tour?month=2024-07" class="px-5 py-3 text-4xl uppercase" target="_blank">book a tour</Button>
+			<Button href="/book-a-tour" class="px-5 py-3 text-4xl uppercase">book a tour</Button>
 		</p>
 	</div>
 </section>

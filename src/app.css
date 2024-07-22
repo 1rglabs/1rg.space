@@ -16,6 +16,22 @@
 
 /* Css for dynamic pages (events) */
 
-.event-description a {
-  @apply text-mediumorchid hover:text-black;
+.content-page h3 {
+  @apply mt-3 text-base font-medium uppercase text-mediumorchid lg:text-lg;
+}
+
+.content-page h2 {
+  @apply mt-5 font-medium text-mediumorchid text-xl lg:text-2xl;
+}
+
+.content-page p {
+  @apply mt-2 lg:mt-3;
+}
+
+.content-page span {
+  @apply font-semibold;
+}
+
+.content-page a {
+  @apply text-mediumorchid;
 }
