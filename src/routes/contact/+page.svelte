@@ -1,5 +1,4 @@
 <script>
-	import serena_serving from '$lib/images/portraits/047A6622.jpg';
 	import map from '$lib/images/map.jpeg';
 
 	import Heading from '$lib/components/Heading.svelte';
