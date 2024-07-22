@@ -20,10 +20,6 @@ from = "/subscribe"
 to = "https://1rg.eo.page/subscribe"
 
 [[redirects]]
-from = "/code-of-conduct"
-to = "https://docs.google.com/document/d/1cXFLAt9BCyJQ8zJtJyK8hw4hw7fX95UCmzn2PH-y_Fk/edit#heading=h.wouxtmumjbmh"
-
-[[redirects]]
 from = "/art-jam-discord"
 to = "https://discord.com/invite/HDFe7NJ2fq"
 
