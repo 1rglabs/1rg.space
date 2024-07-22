@@ -9,7 +9,7 @@
 <Heading>Conduct Conduct Conduct</Heading>
 
 <section class="flex flex-col overflow-auto h-[50rem]">
-	<div class="p-16 text-base text-page mt-2 lg:text-lg text-justify">
+	<div class="p-16 text-base content-page mt-2 lg:text-lg text-justify">
 
 		<p>To make sure that everyone has a common understanding of “show respect and courtesy to each other,” we have adopted the following code of conduct.</p>
 		

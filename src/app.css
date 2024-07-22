@@ -16,22 +16,22 @@
 
 /* Css for dynamic pages (events) */
 
-.text-page h3 {
+.content-page h3 {
   @apply mt-3 text-base font-medium uppercase text-mediumorchid lg:text-lg;
 }
 
-.text-page h2 {
+.content-page h2 {
   @apply mt-5 font-medium text-mediumorchid text-xl lg:text-2xl;
 }
 
-.text-page p {
+.content-page p {
   @apply mt-2 lg:mt-3;
 }
 
-.text-page span {
+.content-page span {
   @apply font-semibold;
 }
 
-.text-page a {
+.content-page a {
   @apply text-mediumorchid;
 }
