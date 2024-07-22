@@ -35,8 +35,8 @@
 		</p>
 	</div>
 </section>
-<section class="flex flex-col text-white bg-black xl:items-stretch xl:flex-row ">
-	<div class="p-16 space-y-5 text-xl xl:w-1/2">
+<section class="flex flex-col text-white bg-black xl:items-stretch xl:flex-row">
+	<div class="p-16 space-y-5 text-xl font-extralight">
 		<p>
 			The physical space that we call 1RG is built on the traditional territory of many nations
 			including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and
@@ -59,22 +59,5 @@
 		</p>
 
 		<p>We offer these words in humility, and welcome feedback and critique.</p>
-	</div>
-	<div class="flex justify-center p-16 -mt-20 xl:w-1/2 xl:mt-0">
-		<div>
-			<img
-				class="w-4/5 h-full xl:w-full"
-				src={map}
-				alt="2567 Dundas Street West, Toronto, Ontario, Canada, M6P 1X9"
-			/>
-			<div class="text-xl mt-2">
-				1RG is located at
-				<a class="text-white hover:text-mediumorchid"
-				href="https://www.google.com/maps/search/?api=1&query=1RG&query_place_id=ChIJp-ywuOc1K4gRGQKwgOGgukc"
-				target="_blank">
-					2567 Dundas Street West, Toronto
-				</a>
-			</div>
-		</div>
 	</div>
 </section>
