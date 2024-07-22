@@ -1,6 +1,8 @@
 <script>
 	import Input from '$lib/components/Input.svelte';
 	import Button from '$lib/components/Button.svelte';
+	import IconMastadon from '~icons/fa6-brands/mastodon'
+	import IconInstagram from '~icons/fa6-brands/instagram'
 </script>
 
 <!-- TODO padding after font? -->
@@ -26,6 +28,12 @@
 			<li><a class="hover:text-mediumorchid" href="/events">Events</a></li>
 			<li><a class="hover:text-mediumorchid" href="/about">About</a></li>
 			<li><a class="hover:text-mediumorchid" href="/contact">Contact</a></li>
+			<li class="flex flex-row space-x-0.5"><a class="hover:text-mediumorchid" href="https://instagram.com/1rg.space" rel="me" target="_blank" title="Follow 1RG on Instagram">
+				<IconInstagram/>
+			</a>
+			<a class="hover:text-mediumorchid" href="https://cosocial.ca/@1rg" rel="me" target="_blank" title="Follow 1RG on Mastadon">
+				<IconMastadon/>
+			</a></li>
 		</ul>
 	</div>
 </footer>
