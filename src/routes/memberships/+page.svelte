@@ -31,21 +31,22 @@
 </svelte:head>
 
 <Heading>Memberships Memberships Memberships</Heading>
-<section class="flex flex-col my-24 p-8">
-	<div class="text-center flex flex-col items-center">
+<section class="flex flex-col my-24 p-2">
+	
+	<!-- <div class="text-center flex flex-col items-center">
 		<div class="text-2xl">Please,</div>
 		<h1 class="px-6 py-5 md:m-4 text-4xl mt-0 pt-0 font-black leading-tight md:text-6xl xl:text-8xl xl:leading-normal text-center uppercase">Seat yourself </h1>
 	</div>
-
-	<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16 p-8">
-		{#each Object.entries(membershipCardCopy) as [tier, vals]}
-			<MembershipTierCard tier={tier} description={vals.description} access={vals.access} price={vals.price}></MembershipTierCard>
-		{/each}
-	</div>
-
-	<div class="text-center flex flex-col items-center mt-20">
+	 -->
+	<div class="text-center flex flex-col items-center sticky top-0 md:relative">
 		<p class="flex flex-col justify-center text-xl font-semibold leading-10 tracking-widest text-center uppercase lg:leading-loose lg:text-2xl  text-mediumorchid">
 			<Button href="/book-a-tour" class="px-5 py-3 text-4xl uppercase">book a tour</Button>
 		</p>
+	</div>
+
+	<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16 p-1 md:p-8">
+		{#each Object.entries(membershipCardCopy) as [tier, vals]}
+			<MembershipTierCard tier={tier} description={vals.description} access={vals.access} price={vals.price}></MembershipTierCard>
+		{/each}
 	</div>
 </section>
