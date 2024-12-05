@@ -11,6 +11,7 @@
 	let menuItems = [
 		{ name: 'Home', href: '/' },
 		{ name: 'Memberships', href: '/memberships' },
+		{ name: 'Friends of 1RG', href: '/friends' },
 		{ name: 'Events', href: '/events' },
 		{ name: 'About Us', href: '/about' },
 		{ name: 'Contact', href: '/contact' }
@@ -31,8 +32,8 @@
 	>
 		<XButton on:click={() => (open = false)} class="absolute top-0 right-0" />
 
-		<div class="flex-col items-center justify-center hidden w-1/2 xl:flex">
-			<Logo class="justify-center text-white h-96"/>
+		<div class="flex-col items-center justify-center hidden w-1/2 md:flex">
+			<Logo class="justify-center text-white h-94"/>
 			<div
 				class="w-full p-5 text-5xl font-bold tracking-wider text-center uppercase bg-darkseagreen"
 				transition:fade={{duration: 1000}}
