@@ -2,18 +2,31 @@
 command = "npm run build"
 publish = "build"
 
+
+[[redirects]]
+from = "https://1rg.club"
+to = "https://1rg.space"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://1rg.club/*"
+to = "https://1rg.space/:splat"
+status = 301
+force = true
+
 [[redirects]]
 from = "/subscribe"
 to = "https://1rg.eo.page/subscribe"
 
 [[redirects]]
-from = "/bookings"
-to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit#gid=861990204"
+from = "/art-jam-discord"
+to = "https://discord.com/invite/HDFe7NJ2fq"
 
 [[redirects]]
-from = "/booking"
-to = "https://docs.google.com/spreadsheets/d/1uceuGJ5iWMthB8NP7_0PMIijlbNPy3_C1s6BOZYjKmA/edit#gid=861990204"
+from = "/hosting-guide"
+to = "https://docs.google.com/document/d/16iT2geJuNTt6WCOalKWxGvzY8L0eHuRa0GriINC_aFQ"
 
 [[redirects]]
-from = "/potluck"
-to = "https://docs.google.com/spreadsheets/d/1UsJSr2I3FszcxFmr58FUQE1dQ8j30ioTNU_pIS-ivoA/edit?usp=sharing"
+from = "/fous"
+to = "https://www.eventbrite.ca/e/festival-of-uncommon-skills-registration-1005830374727?aff=oddtdtcreator"
