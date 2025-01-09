@@ -8,19 +8,13 @@
 	let membershipCardCopy = {
 		"Community Membership": {
 			description: "You're part of the 1RG community, but don't need a full-time workspace.",
-			access: "Access any 1 day a week 8am-10pm",
-			price: "100"
+			access: "Access any 5 weekdays a month 8am-10pm",
+			price: "125"
 		},
 		"Hot Desk": {
 			description: "1RG is part of your routine, but don't need a committed office.",
 			access: "Access Mon-Fri 8am-10pm",
-			price: "300"
-		},
-		"Dedicated Desk": {
-			description: "1RG is your permanent office, and you're actively engaged in helping shape the space and community.",
-			access: "Access to 1RG 24/7",
-			price: "500",
-			cancellationPolicy: "6 months commitment required"
+			price: "350"
 		}
 	}
 
@@ -44,7 +38,7 @@
 		</p>
 	</div>
 
-	<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16 p-1 md:p-8">
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16 p-1 md:p-8">
 		{#each Object.entries(membershipCardCopy) as [tier, vals]}
 			<MembershipTierCard tier={tier} description={vals.description} access={vals.access} price={vals.price}></MembershipTierCard>
 		{/each}
