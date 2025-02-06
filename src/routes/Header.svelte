@@ -17,7 +17,10 @@
 			<a class="hover:text-darkseagreen" href="https://words.1rg.space/">Words</a>
 		</div>
 		<div class="text-white mr-2 md:mr-8 flex items-center text-lg md:text-xl font-bold uppercase space-x-2">
-			<a class="hover:text-darkseagreen" href="https://labs.1rg.space/">1RG Labs</a>
+			<a class="hover:text-darkseagreen" href="https://labs.1rg.space/">Labs</a>
+		</div>
+		<div class="text-white mr-2 md:mr-8 flex items-center text-lg md:text-xl font-bold uppercase space-x-2">
+			<a class="hover:text-darkseagreen" href="https://incubator.1rg.space/">Incubator</a>
 		</div>
 		<HamburgerButton on:click={() => (menuOpen = true)} />
 	</div>
