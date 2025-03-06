@@ -26,7 +26,7 @@
 
 <Heading>Memberships Memberships Memberships</Heading>
 <section class="flex flex-col my-24 p-2">
-	
+
 	<!-- <div class="text-center flex flex-col items-center">
 		<div class="text-2xl">Please,</div>
 		<h1 class="px-6 py-5 md:m-4 text-4xl mt-0 pt-0 font-black leading-tight md:text-6xl xl:text-8xl xl:leading-normal text-center uppercase">Seat yourself </h1>
@@ -34,7 +34,7 @@
 	 -->
 	<div class="text-center flex flex-col items-center sticky top-0 md:relative">
 		<p class="flex flex-col justify-center text-xl font-semibold leading-10 tracking-widest text-center uppercase lg:leading-loose lg:text-2xl  text-mediumorchid">
-			<Button href="/book-a-tour" class="px-5 py-3 text-2xl md:text-4xl uppercase">book a tour</Button>
+			<Button href="https://1rg.space/apply" class="px-5 py-3 text-2xl md:text-4xl uppercase">apply to join</Button>
 		</p>
 	</div>
 
